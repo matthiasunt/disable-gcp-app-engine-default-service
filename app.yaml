@@ -1,0 +1,9 @@
+runtime: python38
+service: default
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+manual_scaling:
+  instances: 1
